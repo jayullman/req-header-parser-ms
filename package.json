@@ -1,0 +1,23 @@
+{
+  "name": "req-header-parser-ms",
+  "version": "1.0.0",
+  "description": "Request header parser microservice project for freeCodeCamp",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/libeja/req-header-parser-ms.git"
+  },
+  "author": "Jay Ullman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/libeja/req-header-parser-ms/issues"
+  },
+  "homepage": "https://github.com/libeja/req-header-parser-ms#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
