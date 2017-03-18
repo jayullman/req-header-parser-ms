@@ -15,7 +15,8 @@ app.get('*', (req, res) => {
   software = software[0].slice(1, software[0].length-1);
 
   // get ipaddress of client request
-  var ipaddress = req.ip;
+  // from stackoverflow http://stackoverflow.com/questions/8107856/how-to-determine-a-users-ip-address-in-node
+  const ipaddress = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
 
   // get language of client request
   var language = req.headers['accept-language'].slice(0, 5);
