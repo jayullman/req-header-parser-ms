@@ -1,7 +1,5 @@
 # req-header-parser-ms
 
-Live site: https://req-header-ms.herokuapp.com/
-
 Live API endpoint: https://req-header-ms.herokuapp.com/
 
 ## User Story Requirements
